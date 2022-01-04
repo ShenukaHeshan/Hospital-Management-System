@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+body{
+
+	background-image: url(../images/edit3.jpg);
+}
+
+h2 {
+    	font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+        text-align: center;
+        background-color: #138496;
+        color: #fff;
+        padding: 5px 0px;
+}   
+
+table{
+	margin-top:50px;
+	
+        background-color:  #e6e6e6;
+
+}
+
+.update{
+	
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	width: 100%;
+	margin-top:10px;
+	background-color: #2ecc71;
+	color:#FFF;
+    border-radius: .25em;
+	border: none;
+	cursor: pointer;
+	padding: 6px;
+}
+
+.update:hover {
+  transform:scale(1.02);
+  box-shadow:2px 2px 5px rgba(0,0,0,0.20), inset 0 0 0 99999px rgba(0,0,0,0.2);
+}
+
+.delete{
+	
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	width: 100%;
+	margin-top:10px;
+	background-color: #c0392b;
+	color:#FFF;
+    border-radius: .25em;
+	border: none;
+	cursor: pointer;
+	padding: 6px;
+}
+
+.delete:hover {
+  transform:scale(1.02);
+  box-shadow:2px 2px 5px rgba(0,0,0,0.20), inset 0 0 0 99999px rgba(0,0,0,0.2);
+}
+
+table.inner{
+  border: 0px
+}
+
